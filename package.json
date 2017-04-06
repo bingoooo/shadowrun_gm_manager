@@ -1,0 +1,27 @@
+{
+  "name": "shadowrun_gm_manager",
+  "version": "1.0.0",
+  "description": "SR5 game master utility",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingoooo/shadowrun_gm_manager.git"
+  },
+  "keywords": [
+    "shadowrun",
+    "5",
+    "utility"
+  ],
+  "author": "Benjamin Dant",
+  "license": "ISC",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/bingoooo/shadowrun_gm_manager/issues"
+  },
+  "homepage": "https://github.com/bingoooo/shadowrun_gm_manager#readme"
+}
