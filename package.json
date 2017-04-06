@@ -4,7 +4,8 @@
   "description": "SR5 game master utility",
   "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   ],
   "author": "Benjamin Dant",
   "license": "ISC",
+  "dependencies":{
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
   "engines": {
     "node": "4.1.1"
   },
