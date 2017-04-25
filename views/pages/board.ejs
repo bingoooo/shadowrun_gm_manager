@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SR5 GM Manager - Board</title>
+        <% include ../partials/header.ejs %>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <% include ../partials/nav.ejs %>
+        <section>
+            <h1>Board</h1>
+            <div id="add-character">
+                <input id="nom" type="text" placeholder="Nom" />
+                <input id="ini" type="number" placeholder="Initiative" />
+                <input id="mon" type="number" placeholder="Moniteurs" />
+                <button class="button" onclick="addCharacter()">Ajouter</button>
+            </div>
+            <div id="combat-list"></div>
+        </section>
+        <section>
+            <button onclick="showDebug()">Click Me</button>
+            <div id="debug"></div>
+        </section>
+        <% include ../partials/scripts.ejs %>
+        <script src="js/board.js"></script>
+    </body>
+</html>

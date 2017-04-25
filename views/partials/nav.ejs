@@ -1,0 +1,13 @@
+<header class="red-burnt">
+    <h1 class="silver-styled-font2">Shadowrun Game Master Utility</h1>
+    <nav>
+        <li>
+            <% if(username!=null){ %>
+            <a>Login as <%= username %></a>
+            <% } else { %>
+            <a>No Login</a>
+            <% } %>
+            <a href="/board">Board</a>
+        </li>
+    </nav>
+</header>

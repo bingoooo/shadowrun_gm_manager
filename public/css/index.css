@@ -1,0 +1,18 @@
+
+h2 {
+    text-align: center;
+}
+p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form {
+    width: 30%;
+    margin: 0 auto;
+}
+.form-row {
+    text-align: center;
+    width: 93%;
+    margin: 0.5em auto;
+}

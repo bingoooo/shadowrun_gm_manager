@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Shadowrun 5 game master Utility</title>
+        <link rel="stylesheet" href="css/index.css">
+        <% include ../partials/header.ejs %>
     </head>
-    <body>
-        <h1>Hello World !</h1>
-        <script src="js/app.js"></script>
+    <body class="black">
+        <% include ../partials/nav.ejs %>
+        <section>
+            <h2 class="silver-styled-font2">Vises Juste</h2>
+            <h2 class="silver-styled-font2">Surveilles tes arrières</h2>
+            <h2 class="silver-styled-font2">Gardes des munitions</h2>
+            <h2 class="silver-styled-font2">Ne traites jamais avec un dragon...</h2>
+            <div class="form">
+                <input id="username" class="form-row" type="text" placeholder="Nom d'utilisateur" /> *
+                <input id="password" class="form-row" type="password" placeholder="Mot de passe" />
+                <button id="submit" class="form-row button" onclick="login()">Login</button>
+            </div>
+            <p>* : Champs requis</p>
+            <p>Sans mot de passe, les données seront conservées localement</p>
+            <p> si vous effacez le cache, les données seront perdues.</p>
+        </section>
+        <% include ../partials/scripts.ejs %>
+        <script src="js/index.js"></script>
     </body>
 </html>

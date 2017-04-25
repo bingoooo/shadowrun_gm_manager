@@ -1,3 +1,63 @@
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(10, 20, 40, 1);
+    color: rgba(200, 200, 200, 1);
+}
+header {
+    height: 4em;
+}
+header > h1 {
+    margin: 0;
+}
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+section {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+input {
+    background-color: rgba(0, 0, 0, 1);
+    border: 3px solid rgba(64, 0, 0, 1);
+    color: rgba(191, 0, 0, 1);
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(191, 0, 0, 1);
+    font-weight: bold;
+    border: 3px solid rgba(64, 0, 0, 1);
+    border-radius: 5px;
+}
+.red-alert {
+    background-color: rgba(191, 0, 0, 1);
+}
+.red-burnt {
+    background-color: rgba(127, 0, 0, 1);
+}
+.red-full {
+    background-color: rgba(255, 0, 0, 1);
+}
+.red-black {
+    background-color: rgba(64, 0, 0, 1);
+}
+.red-flash {
+    background-color: rgba(229, 0, 0, 0);
+}
+.black {
+    background-color: rgba(18, 7, 8, 1);
+}
+.silver-styled-font {
+	-webkit-mask-image: -webkit-linear-gradient(top, grey, white 50%, blue);
+	-webkit-mask-image: linear-gradient(top, grey, white 50%, blue);
+}
+.silver-styled-font2 {
+    background: -webkit-linear-gradient(top, grey, white, blue);
+    background: linear-gradient(top, grey, white, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
